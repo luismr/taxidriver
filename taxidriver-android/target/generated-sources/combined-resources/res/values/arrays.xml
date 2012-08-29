@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_city_options">
+        <item >Araguari (MG)</item>
+        <item >Brasília (DF)</item>
+        <item >Caldas Novas (GO)</item>
+        <item >Goiânia (GO)</item>
+        <item >Uberaba (MG)</item>
+        <item >Uberlândia (MG)</item>
+    </string-array>
+</resources>

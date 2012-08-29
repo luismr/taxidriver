@@ -5,8 +5,10 @@ package br.com.singularideas.mobile;
 
 import java.util.List;
 
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.location.Location;
 import android.location.LocationManager;
+import android.util.Log;
 import android.widget.Toast;
 import br.com.singularideas.mobile.taxidriver.R;
 
@@ -149,4 +151,19 @@ public abstract class AbstractMapActivity extends MapActivity {
 		}
 	}
 
+	/**
+	 * Return App Version
+	 * @return
+	 */
+    public String getAppVersion() {
+		String appVersion = null;
+		
+		try {
+			appVersion = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+		} catch (NameNotFoundException e) {
+			Log.e(this.getClass().getName(), e.getMessage());
+		}
+
+		return appVersion;
+    }
 }

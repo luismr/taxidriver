@@ -36,6 +36,10 @@
             android:name=".ChangelogActivity"
             android:label="@string/window_changelog" >
         </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/window_about" >
+        </activity>
         
         <uses-library android:name="com.google.android.maps" />
     </application>

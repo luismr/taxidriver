@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -75,10 +74,13 @@ public class WhereAmIActivity extends AbstractMapActivity {
 	 */
 	@Override
 	public boolean onMenuItemSelected(int featureId, MenuItem item) {
+		Log.d(this.getClass().getName(), String.valueOf(item.getItemId()));
 		switch (item.getItemId()) {
 		case R.id.menu_settings:
 			startActivity(new Intent(this, SettingsActivity.class));
-			finish();
+			return true;
+		case R.id.menu_about:
+			startActivity(new Intent(this, AboutActivity.class));
 			return true;
 		case R.id.menu_exit:
 			UIHelper.killApp(false);
@@ -92,20 +94,16 @@ public class WhereAmIActivity extends AbstractMapActivity {
 	 * Changelog verification
 	 */
 	private void checkChangelog() {
-		try {
-			String version = preferences.getString("version", SettingsActivity.DEFAULT_VERSION);
-			String versionApp = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+		String version = preferences.getString("version", SettingsActivity.DEFAULT_VERSION);
+		String versionApp = getAppVersion();
+		
+		if (!version.trim().equalsIgnoreCase(versionApp.trim())) {
+			Editor editor = preferences.edit();
+			editor.putString("version", versionApp.trim());
+			editor.commit();
 			
-			if (!version.trim().equalsIgnoreCase(versionApp.trim())) {
-				Editor editor = preferences.edit();
-				editor.putString("version", versionApp.trim());
-				editor.commit();
-				
-				startActivity(new Intent(this, ChangelogActivity.class));
-				finish();
-			}
-		} catch (NameNotFoundException e) {
-			Log.e("version", e.getMessage());
+			startActivity(new Intent(this, ChangelogActivity.class));
+			finish();
 		}
 	}
 

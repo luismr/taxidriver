@@ -3,12 +3,8 @@
  */
 package br.com.singularideas.mobile.taxidriver;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
 import br.com.singularideas.mobile.UIHelper;
 
 /**
@@ -62,44 +58,5 @@ public class SettingsActivity extends PreferenceActivity {
     public boolean onSearchRequested() {
         return false;
     }
-
-    /*
-     * (non-Javadoc)
-     * @see android.app.Activity#onCreateOptionsMenu(android.view.Menu)
-     */
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.settings, menu);
-        return true;
-    }
-
-	/*
-	 * (non-Javadoc)
-	 * @see android.app.Activity#onMenuItemSelected(int, android.view.MenuItem)
-	 */
-	@Override
-	public boolean onMenuItemSelected(int featureId, MenuItem item) {
-		switch (item.getItemId()) {
-		case R.id.menu_save:
-			save();
-			return true;
-		default:
-			return super.onMenuItemSelected(featureId, item);
-		}
-	}
-
-	@Override
-	public void onBackPressed() {
-		save();
-	}
-	
-	/**
-	 * Save Settings
-	 */
-	private void save() {
-		Toast.makeText(SettingsActivity.this, R.string.msg_pref_saved, Toast.LENGTH_SHORT).show();
-		startActivity(new Intent(this, WhereAmIActivity.class));
-		finish();
-	}
 
 }
