@@ -1,6 +1,8 @@
 package br.com.singularideas.mobile.taxidriver;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -10,15 +12,18 @@ import android.location.LocationManager;
 import android.location.LocationProvider;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
+import android.widget.ToggleButton;
 import android.widget.ZoomButtonsController;
 import android.widget.ZoomButtonsController.OnZoomListener;
 import br.com.singularideas.mobile.AbstractMapActivity;
+import br.com.singularideas.mobile.GenericItemizedOverlay;
 import br.com.singularideas.mobile.MicroDegreeGeoPoint;
 import br.com.singularideas.mobile.UIHelper;
 
@@ -30,6 +35,11 @@ public class WhereAmIActivity extends AbstractMapActivity {
 	private static final long MINIMUM_TIME_BETWEEN_UPDATES = 10 * 1000; 
 	
 	protected ImageButton retrieveLocationButton;
+	protected ToggleButton showCarsButton;
+	protected ToggleButton showMotosButton;
+	
+	protected GenericItemizedOverlay carOverlay = null;
+	protected GenericItemizedOverlay motoOverlay = null;
 
 	private SharedPreferences preferences;
 
@@ -55,8 +65,31 @@ public class WhereAmIActivity extends AbstractMapActivity {
 		debug = preferences.getBoolean("debug", false);
 		
 		checkSettings();
+		checkConnected();
 	}
 	
+	private void checkConnected() {
+		if (!isConnected()) {
+			AlertDialog alertDialog = new AlertDialog.Builder(WhereAmIActivity.this).create();
+			
+			alertDialog.setTitle(getString(R.string.dialog_internet_title));
+			alertDialog.setIcon(R.drawable.ic_dialog_alert);
+			alertDialog.setMessage(getString(R.string.dialog_internet_message));
+			
+			alertDialog.setButton(getString(R.string.dialog_internet_btn_settings), new DialogInterface.OnClickListener() {
+				
+				private Context ctx = WhereAmIActivity.this;
+				
+				@Override
+				public void onClick(DialogInterface dialog, int which) {
+					ctx.startActivity(new Intent(Settings.ACTION_WIRELESS_SETTINGS));
+				}
+			});
+			
+			alertDialog.show();
+		}
+	}
+
 	/*
 	 * (non-Javadoc)
 	 * @see android.app.Activity#onCreateOptionsMenu(android.view.Menu)
@@ -114,7 +147,6 @@ public class WhereAmIActivity extends AbstractMapActivity {
 		String city = preferences.getString("city", SettingsActivity.DEFAULT_CITY);
 		if (SettingsActivity.DEFAULT_CITY.equals(city)) {
 			startActivity(new Intent(this, SettingsActivity.class));
-			finish();
 		} else {
 			configLocationManager();
 			configInterfaceListeners();
@@ -137,13 +169,25 @@ public class WhereAmIActivity extends AbstractMapActivity {
 		mlo = new MyLocationOverlay(this, map);
 		mlo.enableCompass();
 		mlo.enableMyLocation();
-		
 		overlays.add(mlo);
+		
+		carOverlay = setupCustomOverlay(R.drawable.pin_car);
+		motoOverlay = setupCustomOverlay(R.drawable.pin_moto);
 		
 		ZoomButtonsController zoomButtonsController = map.getZoomButtonsController();
 		zoomButtonsController.setOnZoomListener(new ZoomListener());
 		
 		centerOnMyLocation();
+	}
+
+	/**
+	 * Setup a new GenericItemizedOverlay
+	 * @param pin
+	 * @return
+	 */
+	private GenericItemizedOverlay setupCustomOverlay(final int pin) {
+		GenericItemizedOverlay overlay = new GenericItemizedOverlay(getResources().getDrawable(pin), this);
+		return overlay;
 	}
 
 	/**
@@ -155,11 +199,66 @@ public class WhereAmIActivity extends AbstractMapActivity {
 
 			@Override
 			public void onClick(View v) {
+				if (isConnected()) {
+					Log.d(this.getClass().getName(), "connect to internet to search taxi spots");
+				} else {
+					AlertDialog alertDialog = new AlertDialog.Builder(WhereAmIActivity.this).create();
+					
+					alertDialog.setTitle(getString(R.string.dialog_internet_title));
+					alertDialog.setIcon(R.drawable.ic_dialog_alert);
+					alertDialog.setMessage(getString(R.string.dialog_internet_message));
+					
+					alertDialog.setButton(getString(R.string.dialog_internet_btn_settings), new DialogInterface.OnClickListener() {
+						
+						private Context ctx = WhereAmIActivity.this;
+						
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							ctx.startActivity(new Intent(Settings.ACTION_WIRELESS_SETTINGS));
+						}
+					});
+					
+					alertDialog.setButton2(getString(R.string.dialog_internet_btn_ignore), new DialogInterface.OnClickListener() {
+						
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							return;
+						}
+					});
+					
+					alertDialog.show();
+				}
+				
 				configLocationManager();
 				centerOnMyLocation();
 			}
 			
 		});
+		
+		showCarsButton = (ToggleButton) findViewById(R.id.btn_show_cars);
+		showCarsButton.setChecked(preferences.getBoolean("show_cars", true));
+		showCarsButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Editor editor = preferences.edit();
+				editor.putBoolean("show_cars", showCarsButton.isChecked());
+				editor.commit();
+			}
+		});
+		
+		showMotosButton = (ToggleButton) findViewById(R.id.btn_show_motos);
+		showMotosButton.setChecked(preferences.getBoolean("show_motos", false));
+		showMotosButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Editor editor = preferences.edit();
+				editor.putBoolean("show_motos", showMotosButton.isChecked());
+				editor.commit();
+			}
+		});
+		
 	}
 
 	/**

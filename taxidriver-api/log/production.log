@@ -1,0 +1,396 @@
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-05 21:29:31) [GET]
+
+ActionController::RoutingError (No route matches "/spots" with {:method=>:get}):
+  
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:30:06) [GET]
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'louco390_api_taxidriver_prod.spots' doesn't exist: SELECT * FROM `spots` ):
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:265:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:586:in `select'
+  app/controllers/spots_controller.rb:5:in `index'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/500.html (500 Internal Server Error)
+
+
+Processing SpotsController#index to xml (for 189.15.182.116 at 2012-10-05 21:30:23) [GET]
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'louco390_api_taxidriver_prod.spots' doesn't exist: SELECT * FROM `spots` ):
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:265:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:586:in `select'
+  app/controllers/spots_controller.rb:5:in `index'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/500.html (500 Internal Server Error)
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:30:29) [GET]
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'louco390_api_taxidriver_prod.spots' doesn't exist: SELECT * FROM `spots` ):
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:265:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:586:in `select'
+  app/controllers/spots_controller.rb:5:in `index'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/500.html (500 Internal Server Error)
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:44:29) [GET]
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'louco390_api_taxidriver_prod.spots' doesn't exist: SELECT * FROM `spots` ):
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:265:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:586:in `select'
+  app/controllers/spots_controller.rb:5:in `index'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/500.html (500 Internal Server Error)
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:45:24) [GET]
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'louco390_api_taxidriver_prod.spots' doesn't exist: SELECT * FROM `spots` ):
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:265:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/mysql2-0.2.18/lib/active_record/connection_adapters/mysql2_adapter.rb:586:in `select'
+  app/controllers/spots_controller.rb:5:in `index'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/500.html (500 Internal Server Error)
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:48:29) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:49:27) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:49:52) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:53:02) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-05 21:53:10) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 173.193.65.163 at 2012-10-06 10:12:24) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 186ms (View: 58, DB: 26) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-06 14:52:39) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 55ms (View: 11, DB: 42) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-06 14:56:30) [GET]
+
+ActionController::RoutingError (No route matches "/controladorNaoExiste" with {:method=>:get}):
+  
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-06 14:57:30) [GET]
+
+ActionController::RoutingError (No route matches "/controladorNaoExiste" with {:method=>:get}):
+  
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-06 14:57:40) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-07 16:48:45) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 666ms (View: 311, DB: 72) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index to xml (for 127.0.0.1 at 2012-10-07 16:51:48) [GET]
+Completed in 299ms (View: 270, DB: 9) | 200 OK [http://localhost/spots.xml]
+
+
+Processing SpotsController#index (for 127.0.0.1 at 2012-10-07 16:53:00) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 9ms (View: 4, DB: 4) | 200 OK [http://localhost/spots]
+
+
+Processing SpotsController#show (for 127.0.0.1 at 2012-10-07 16:53:13) [GET]
+  Parameters: {"id"=>"1"}
+
+ActiveRecord::RecordNotFound (Couldn't find Spot with ID=1):
+  app/controllers/spots_controller.rb:16:in `show'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SpotsController#index to xml (for 177.132.55.46 at 2012-10-08 21:15:04) [GET]
+Completed in 355ms (View: 220, DB: 55) | 200 OK [http://api.taxidriver4.me/spots.xml]
+
+
+Processing SpotsController#index to xml (for 177.132.55.46 at 2012-10-08 21:15:14) [GET]
+Completed in 45ms (View: 13, DB: 12) | 200 OK [http://api.taxidriver4.me/spots.xml]
+
+
+Processing SpotsController#index (for 177.132.55.46 at 2012-10-08 21:15:18) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 52ms (View: 31, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index to xml (for 173.193.65.163 at 2012-10-09 10:34:11) [GET]
+Completed in 58ms (View: 14, DB: 18) | 200 OK [http://api.taxidriver4.me/spots.xml]
+
+
+Processing ApplicationController#index (for 173.193.65.163 at 2012-10-10 14:43:50) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 173.193.65.163 at 2012-10-10 14:48:03) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing SpotsController#index to xml (for 173.193.65.163 at 2012-10-10 14:48:26) [GET]
+Completed in 52ms (View: 1, DB: 50) | 200 OK [http://api.taxidriver4.me/spots.xml]
+
+
+Processing SpotsController#index to xml (for 173.193.65.163 at 2012-10-10 14:48:38) [GET]
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots.xml]
+
+
+Processing ApplicationController#index (for 173.193.65.163 at 2012-10-10 14:55:55) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  config/initializers/mongrel.rb:62:in `dispatch_cgi'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing SpotsController#index to xml (for 173.193.65.163 at 2012-10-10 14:56:03) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots.xml]
+
+
+Processing SpotsController#index (for 173.193.65.163 at 2012-10-10 14:56:53) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 200.225.197.223 at 2012-10-10 17:04:42) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 201ms (View: 1, DB: 198) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:21:39) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 473ms (View: 120, DB: 84) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#new (for 189.15.182.116 at 2012-10-10 21:21:42) [GET]
+Rendering template within layouts/spots
+Rendering spots/new
+Completed in 970ms (View: 845, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/new]
+
+
+Processing SpotsController#new (for 189.15.182.116 at 2012-10-10 21:22:23) [GET]
+Rendering template within layouts/spots
+Rendering spots/new
+Completed in 32ms (View: 31, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/new]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:22:41) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:22:42) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#new (for 189.15.182.116 at 2012-10-10 21:22:44) [GET]
+Rendering template within layouts/spots
+Rendering spots/new
+Completed in 31ms (View: 27, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/new]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:23:12) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:26:51) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#new (for 189.15.182.116 at 2012-10-10 21:26:53) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 0, DB: 0) | 401 Unauthorized [http://api.taxidriver4.me/spots/new]
+
+
+Processing SpotsController#new (for 189.15.182.116 at 2012-10-10 21:27:03) [GET]
+Rendering template within layouts/spots
+Rendering spots/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/new]
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-10 21:27:22) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  config/initializers/mongrel.rb:62:in `dispatch_cgi'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-10 21:28:44) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  config/initializers/mongrel.rb:62:in `dispatch_cgi'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-10 21:28:45) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  config/initializers/mongrel.rb:62:in `dispatch_cgi'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-10 21:28:46) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  config/initializers/mongrel.rb:62:in `dispatch_cgi'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-10 21:28:47) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  config/initializers/mongrel.rb:62:in `dispatch_cgi'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 189.15.182.116 at 2012-10-10 21:28:48) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  config/initializers/mongrel.rb:62:in `dispatch_cgi'
+
+Rendering /home/louco390/rails_apps/taxidriver_api/public/404.html (404 Not Found)
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:29:00) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:34:37) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://api.taxidriver4.me/]
+
+
+Processing SpotsController#new (for 189.15.182.116 at 2012-10-10 21:34:42) [GET]
+Rendering template within layouts/spots
+Rendering spots/new
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/new]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:36:28) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:36:29) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:36:30) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:36:31) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:36:32) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:36:33) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:36:53) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 9ms (View: 7, DB: 1) | 200 OK [http://api.taxidriver4.me/spots/]
+
+
+Processing SpotsController#index (for 189.15.182.116 at 2012-10-10 21:37:04) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://api.taxidriver4.me/spots]
+
+
+Processing SpotsController#index to json (for 189.15.182.116 at 2012-10-10 21:37:05) [GET]
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://api.taxidriver4.me/spots.json]
+
+
+Processing SpotsController#index (for 189.15.165.48 at 2013-01-26 15:15:59) [GET]
+Rendering template within layouts/spots
+Rendering spots/index
+Completed in 1372ms (View: 668, DB: 118) | 200 OK [http://api.taxidriver4.me/spots]

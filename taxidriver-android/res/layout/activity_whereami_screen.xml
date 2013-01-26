@@ -20,5 +20,28 @@
         android:layout_alignParentTop="true"
         android:contentDescription="@string/btn_retrieve_location"
         android:src="@drawable/ic_button_my_location" />
+
+    <ToggleButton
+        android:id="@+id/btn_show_cars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:checked="true"
+        android:text="@string/btn_show_cars"
+        android:textOff="@string/btn_show_cars"
+        android:textOn="@string/btn_show_cars" />
+
+    <ToggleButton
+        android:id="@+id/btn_show_motos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="58dp"
+        android:checked="true"
+        android:text="@string/btn_show_moto"
+        android:textOff="@string/btn_show_moto"
+        android:textOn="@string/btn_show_moto" />
 
 </RelativeLayout>

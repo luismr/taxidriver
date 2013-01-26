@@ -1,0 +1,43 @@
+<h1>New spot</h1>
+
+<% form_for(@spot) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :address %><br />
+    <%= f.text_area :address %>
+  </p>
+  <p>
+    <%= f.label :city %><br />
+    <%= f.text_field :city %>
+  </p>
+  <p>
+    <%= f.label :state %><br />
+    <%= f.text_field :state %>
+  </p>
+  <p>
+    <%= f.label :phone %><br />
+    <%= f.text_field :phone %>
+  </p>
+  <p>
+    <%= f.label :spot_type %><br />
+    <%= f.text_field :spot_type %>
+  </p>
+  <p>
+    <%= f.label :map_lat %><br />
+    <%= f.text_field :map_lat %>
+  </p>
+  <p>
+    <%= f.label :map_long %><br />
+    <%= f.text_field :map_long %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', spots_path %>

@@ -1,0 +1,43 @@
+<p>
+  <b>Name:</b>
+  <%=h @spot.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @spot.address %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @spot.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%=h @spot.state %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%=h @spot.phone %>
+</p>
+
+<p>
+  <b>Spot type:</b>
+  <%=h @spot.spot_type %>
+</p>
+
+<p>
+  <b>Map lat:</b>
+  <%=h @spot.map_lat %>
+</p>
+
+<p>
+  <b>Map long:</b>
+  <%=h @spot.map_long %>
+</p>
+
+
+<%= link_to 'Edit', edit_spot_path(@spot) %> |
+<%= link_to 'Back', spots_path %>

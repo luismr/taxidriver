@@ -1,0 +1,501 @@
+# Logfile created on Tue Oct 09 10:42:09 -0300 2012 by logger.rb/22285
+[09/Oct/2012:10:42:09 :: 6091] starting
+[09/Oct/2012:10:42:09 :: 6091] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:42:09 :: 6091] starting
+[09/Oct/2012:10:42:09 :: 6091] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:10:42:46 :: 6958] starting
+[09/Oct/2012:10:42:46 :: 6958] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:42:46 :: 6958] starting
+[09/Oct/2012:10:42:46 :: 6958] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:10:43:16 :: 8920] starting
+[09/Oct/2012:10:43:16 :: 8920] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:43:16 :: 8920] starting
+[09/Oct/2012:10:43:16 :: 8920] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:10:43:24 :: 9183] starting
+[09/Oct/2012:10:43:24 :: 9183] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  ./dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:43:24 :: 9183] starting
+[09/Oct/2012:10:43:24 :: 9183] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  ./dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:10:45:39 :: 14124] starting
+[09/Oct/2012:10:45:39 :: 14124] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  public/dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:45:39 :: 14124] starting
+[09/Oct/2012:10:45:39 :: 14124] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  public/dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:10:46:55 :: 16577] starting
+[09/Oct/2012:10:46:55 :: 16577] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  public/dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:46:55 :: 16577] starting
+[09/Oct/2012:10:46:55 :: 16577] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  public/dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:10:53:55 :: 5039] starting
+[09/Oct/2012:10:53:55 :: 5039] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:53:55 :: 5039] starting
+[09/Oct/2012:10:53:55 :: 5039] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:10:55:23 :: 8883] starting
+[09/Oct/2012:10:55:23 :: 8883] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:55:23 :: 8883] starting
+[09/Oct/2012:10:55:23 :: 8883] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:10:59:08 :: 18166] starting
+[09/Oct/2012:10:59:08 :: 18166] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:10:59:08 :: 18166] starting
+[09/Oct/2012:10:59:08 :: 18166] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:00:45 :: 23872] starting
+[09/Oct/2012:11:00:45 :: 23872] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  public/dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:00:45 :: 23872] starting
+[09/Oct/2012:11:00:45 :: 23872] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  public/dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:01:29 :: 25709] starting
+[09/Oct/2012:11:01:29 :: 25709] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:01:29 :: 25709] starting
+[09/Oct/2012:11:01:29 :: 25709] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:07:51 :: 9845] starting
+[09/Oct/2012:11:07:51 :: 9845] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:07:51 :: 9845] starting
+[09/Oct/2012:11:07:51 :: 9845] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:08:36 :: 11605] starting
+[09/Oct/2012:11:08:36 :: 11605] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:08:36 :: 11605] starting
+[09/Oct/2012:11:08:36 :: 11605] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:13:01 :: 23175] starting
+[09/Oct/2012:11:13:01 :: 23175] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:13:01 :: 23175] starting
+[09/Oct/2012:11:13:01 :: 23175] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:14:07 :: 26392] starting
+[09/Oct/2012:11:14:07 :: 26392] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  ./dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:14:07 :: 26392] starting
+[09/Oct/2012:11:14:07 :: 26392] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  ./dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:15:36 :: 30232] starting
+[09/Oct/2012:11:15:36 :: 30232] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  ./dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:15:36 :: 30232] starting
+[09/Oct/2012:11:15:36 :: 30232] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  ./dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:16:50 :: 719] starting
+[09/Oct/2012:11:16:50 :: 719] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  ./dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:16:50 :: 719] starting
+[09/Oct/2012:11:16:50 :: 719] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  ./dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:17:31 :: 2471] starting
+[09/Oct/2012:11:17:31 :: 2471] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:17:31 :: 2471] starting
+[09/Oct/2012:11:17:31 :: 2471] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:11:18:06 :: 2795] starting
+[09/Oct/2012:11:18:06 :: 2795] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:11:18:06 :: 2795] starting
+[09/Oct/2012:11:18:06 :: 2795] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last
+[09/Oct/2012:15:29:53 :: 31296] starting
+[09/Oct/2012:15:29:53 :: 31296] Dispatcher failed to catch: Socket operation on non-socket (Errno::ENOTSOCK)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `accept'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:113:in `session'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:104:in `each_request'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:36:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+retrying after unhandled exception
+[09/Oct/2012:15:29:53 :: 31296] starting
+[09/Oct/2012:15:29:53 :: 31296] Dispatcher failed to catch: Bad file descriptor (Errno::EBADF)
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `for_fd'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:49:in `default_connection'
+  /usr/lib/ruby/gems/1.8/gems/fcgi-0.8.8/lib/fcgi.rb:35:in `each'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:77:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `catch'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:76:in `process_each_request'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:51:in `process!'
+  /usr/lib/ruby/gems/1.8/gems/rails-2.3.14/lib/fcgi_handler.rb:23:in `process!'
+  dispatch.fcgi:24
+stopping after unhandled exception within 10 seconds of the last

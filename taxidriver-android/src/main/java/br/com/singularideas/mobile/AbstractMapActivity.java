@@ -5,9 +5,12 @@ package br.com.singularideas.mobile;
 
 import java.util.List;
 
+import android.content.Context;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.location.Location;
 import android.location.LocationManager;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.util.Log;
 import android.widget.Toast;
 import br.com.singularideas.mobile.taxidriver.R;
@@ -166,4 +169,16 @@ public abstract class AbstractMapActivity extends MapActivity {
 
 		return appVersion;
     }
+    
+	/**
+	 * Check if Android is Connected
+	 * @return
+	 */
+	protected boolean isConnected() {
+		ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+	    NetworkInfo netInfo = cm.getActiveNetworkInfo();
+	    
+	    boolean connected = netInfo != null && netInfo.isConnectedOrConnecting(); 
+	    return connected;
+	}
 }
