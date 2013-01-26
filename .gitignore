@@ -17,3 +17,8 @@ local.properties
 
 # target
 target/
+
+# Rails and Ruby
+db/*.sqlite3
+log/*.log
+tmp/**/*
