@@ -8,6 +8,15 @@
     <packaging>apk</packaging>
     <name>taxidriver</name>
 
+    <repositories>
+                <repository>
+                        <id>singular-developers-libs</id>
+                        <name>Singular Ideas Developers</name>
+                        <url>scp://br44.hostgator.com.br:2222/home/louco390/subdomains/developer/maven/repos/libs</url>
+                </repository>
+    </repositories>	
+
+
     <dependencies>
         <dependency>
             <groupId>com.google.android</groupId>
@@ -19,7 +28,7 @@
         <dependency>
   			<groupId>com.google.android.maps</groupId>
   			<artifactId>maps</artifactId>
-  			<version>7_r1</version>
+  			<version>7r2</version>
   			<scope>provided</scope>
 		</dependency>
     </dependencies>
@@ -28,15 +37,15 @@
         <plugins>
             <plugin>
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
-                <artifactId>maven-android-plugin</artifactId>
-                <version>2.8.4</version>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>3.6.0</version>
                 <configuration>
                     <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
                     <assetsDirectory>${project.basedir}/assets</assetsDirectory>
                     <resourceDirectory>${project.basedir}/res</resourceDirectory>
                     <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
                     <sdk>
-                        <path>C:/Progra~2/Android/android-sdk</path>
+                        <path>/Users/luismr/Work/developer/tools/android-sdk-macosx</path>
                         <platform>7</platform>
                     </sdk>
                     <deleteConflictingFiles>true</deleteConflictingFiles>
@@ -54,5 +63,12 @@
                 </configuration>
             </plugin>
         </plugins>
+   <extensions> 
+         <extension> 
+            <groupId>org.apache.maven.wagon</groupId> 
+            <artifactId>wagon-ssh</artifactId> 
+            <version>1.0-beta-7</version> 
+         </extension> 
+     </extensions> 
     </build>
 </project>
