@@ -13,8 +13,8 @@ bin/
 gen/
 
 # eclipse
-.project/
-.settings/
+.project
+.settings
 .classpath/
 
 # Local configuration file (sdk path, etc)
