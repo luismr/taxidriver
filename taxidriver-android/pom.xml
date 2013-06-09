@@ -9,9 +9,12 @@
 	<name>taxidriver</name>
 
 	<scm>
-		<connection>scm:git:git@github.com:taxidriver/heimdall.git</connection>
-		<url>scm:git:git@github.com:luismr/taxidriver.git/taxidriver-android</url>
-		<developerConnection>scm:git:git@github.com:luismr/taxidriver.git</developerConnection>
+		<connection>scm:git:git@github.com:taxidriver/heimdall.git
+		</connection>
+		<url>scm:git:git@github.com:luismr/taxidriver.git/taxidriver-android
+		</url>
+		<developerConnection>scm:git:git@github.com:luismr/taxidriver.git
+		</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -48,6 +51,18 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+
+	<executions>
+		<execution>
+			<id>default</id>
+			<goals>
+				<goal>perform</goal>
+			</goals>
+			<configuration>
+				<pomFileName>taxidriver-android/pom.xml</pomFileName>
+			</configuration>
+		</execution>
+	</executions>
 
 	<build>
 		<plugins>
