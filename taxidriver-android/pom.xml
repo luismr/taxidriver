@@ -10,9 +10,8 @@
 
 	<scm>
 		<connection>scm:git:git@github.com:taxidriver/heimdall.git</connection>
-		<url>scm:git:git@github.com:luismr/taxidriver.git</url>
-		<developerConnection>scm:git:git@github.com:luismr/taxidriver.git
-		</developerConnection>
+		<url>scm:git:git@github.com:luismr/taxidriver.git/taxidriver-android</url>
+		<developerConnection>scm:git:git@github.com:luismr/taxidriver.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
